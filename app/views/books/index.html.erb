@@ -1,5 +1,14 @@
 <h1>Livros</h1>
 
-<% @books.each do |book| %>
-  <%= link_to book.title,   book_path(book.id) %>
-<% end %>
+<div>
+  <% @books.each do |book| %>
+   <img src="<%= book.cover %>" >
+
+    <%= link_to book.title,   book_path(book.id) %>
+
+  <% end %>
+</div>
+
+<div>
+<%= link_to "Add new book", new_book_path %>
+</div>
