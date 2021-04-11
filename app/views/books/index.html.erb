@@ -5,6 +5,12 @@
   </div>
 </div>
 
+<div class="container mt-3">
+  <span class="btn-add">
+    <%= link_to "Add new book", new_book_path %>
+  </span>
+</div>
+
 <div class="container book-display">
   <div class="book-box">
     <% @books.each do |book| %>
@@ -18,5 +24,4 @@
   </div>
 </div>
 
-<%= link_to "Add new book", new_book_path %>
 </div>
