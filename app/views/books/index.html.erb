@@ -23,6 +23,19 @@
 </div>
 
 
+<div class="container book-display">
+  <div class="book-box">
+    <% @books.each do |book| %>
+      <% if book.author === "Stephen King" %>
+        <div class="book-style">
+        <img src="<%= book.cover %>" >
+        <%= link_to book.title,   book_path(book.id) %>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+</div>
+
 <div>
 <%= link_to "Add new book", new_book_path %>
 </div>
