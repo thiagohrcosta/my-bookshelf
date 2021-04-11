@@ -28,6 +28,7 @@ class BooksController < ApplicationController
   end
 
   def destroy
+
   end
 
   private

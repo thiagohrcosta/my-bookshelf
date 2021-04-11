@@ -1,8 +1,32 @@
-<h1><%= @book.title %> </h1>
-<h3><%= @book.author %> </h3>
+<div class="container">
 
-<p><%= @book.resume %></p>
+<div class="book-content">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-book-cover" src="<%= @book.cover %>">
+      </div>
+      <div class="col-lg-6">
+        <h1><%= @book.title %> </h1>
+        <h3 class="author-text">Author: <%= @book.author %> </h3>
+
+        <p><%= @book.resume %></p>
+
+        <div class="btn-book-content">
+          <span class="btn">
+            <%= link_to "Home", books_path %>
+          </span>
+          <span class="btn">
+            <%= link_to "Editar", edit_book_path(@book) %>
+          </span>
+          <span class="btn-delete">
+            <%= link_to "Editar", destroy_book_path(@book) %>
+          </span>
+        </div>
+      </div>
+    </div>
 
 
-<%= link_to "Editar", edit_book_path(@book) %>
+</div>
+
+</div>
 

@@ -1,14 +1,14 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://static01.nyt.com/images/2013/10/03/obituaries/CLANCY-refer/CLANCY-refer-superJumbo.jpg);">
   <div class="container">
     <h1>My Bookshelf</h1>
-    <p>A big collection of Tom Clancy's book and much more.</p>
+    <p>My collection of Tom Clancy's book and much more.</p>
   </div>
 </div>
 
 <div class="container book-display">
   <div class="book-box">
     <% @books.each do |book| %>
-      <% if book.author === "Tom Clancy" %>
+      <% if book.author != "" %>
         <div class="book-style">
         <img src="<%= book.cover %>" >
         <%= link_to book.title,   book_path(book.id) %>
@@ -18,24 +18,5 @@
   </div>
 </div>
 
-<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://viltoreis.com/wp-content/uploads/2018/01/Stephen-King1-1-1200x720.jpg)">
-  Stephen King
-</div>
-
-
-<div class="container book-display">
-  <div class="book-box">
-    <% @books.each do |book| %>
-      <% if book.author === "Stephen King" %>
-        <div class="book-style">
-        <img src="<%= book.cover %>" >
-        <%= link_to book.title,   book_path(book.id) %>
-      <% end %>
-    </div>
-    <% end %>
-  </div>
-</div>
-
-<div>
 <%= link_to "Add new book", new_book_path %>
 </div>
