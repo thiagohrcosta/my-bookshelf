@@ -18,8 +18,11 @@
           <span class="btn">
             <%= link_to "Editar", edit_book_path(@book) %>
           </span>
-          <span class="btn-delete">
-            <%= link_to "Editar", destroy_book_path(@book) %>
+          <span class="btn  btn-delete">
+              <%= link_to "Delete",
+                destroy_book_path(@book),
+                method: :delete,
+                data: { confirm: "Are you sure?"} %>
           </span>
         </div>
       </div>
