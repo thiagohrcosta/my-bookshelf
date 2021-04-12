@@ -62,8 +62,8 @@ The final result was that:
      - Applying some CSS on index page;
      - Applying some CSS on show page (for each book);
      - Delete action created on controller;
-  **April 12**
 
+  **April 12**
 
       - CSS to create a new book added;
       - CSS to edit a book added;
