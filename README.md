@@ -46,24 +46,24 @@ The final result was that:
 
 ## Development routine
 
- - **April 11**
+**April 11**
 
-     - Project created;
-     - Model book created;
-     - Controller books created;
-     - Using resources to create routes;
-     - Display book on index page;
-     - Bootstrap added;
-     - Simple_form added;
-     - Created index, show and new actions on controller;
-     - View show created to display one book on screen;
-     - Actions create and update added on controller;
-     - CSS grid used;
-     - Applying some CSS on index page;
-     - Applying some CSS on show page (for each book);
-     - Delete action created on controller;
+      - Project created;
+      - Model book created;
+      - Controller books created;
+      - Using resources to create routes;
+      - Display book on index page;
+      - Bootstrap added;
+      - Simple_form added;
+      - Created index, show and new actions on controller;
+      - View show created to display one book on screen;
+      - Actions create and update added on controller;
+      - CSS grid used;
+      - Applying some CSS on index page;
+      - Applying some CSS on show page (for each book);
+      - Delete action created on controller;
 
-  **April 12**
+**April 12**
 
       - CSS to create a new book added;
       - CSS to edit a book added;
@@ -72,3 +72,4 @@ The final result was that:
       - Update Readme;
       - Add roboto font;
       - Change some font-weight on Title and Author.
+
