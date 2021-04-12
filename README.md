@@ -1,4 +1,4 @@
-![main image](https://github.com/thiagohrcosta/my-bookshelf/blob/master/public/img/bookshelf1.png?raw=true)
+![main image](https://github.com/thiagohrcosta/my-bookshelf/blob/master/public/img/bookshelf1corret.png?raw=true)
 
 ## Technologies
 This project was created with:
