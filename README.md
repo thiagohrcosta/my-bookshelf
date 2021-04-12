@@ -43,3 +43,30 @@ To create this list of books was used CSS grid
 
 The final result was that:
 ![enter image description here](https://github.com/thiagohrcosta/my-bookshelf/blob/master/public/img/bookshelf2.png?raw=true)
+
+## Development routine
+
+ - **April 11**
+
+     - Project created;
+     - Model book created;
+     - Controller books created;
+     - Using resources to create routes;
+     - Display book on index page;
+     - Bootstrap added;
+     - Simple_form added;
+     - Created index, show and new actions on controller;
+     - View show created to display one book on screen;
+     - Actions create and update added on controller;
+     - CSS grid used;
+     - Applying some CSS on index page;
+     - Applying some CSS on show page (for each book);
+     - Delete action created on controller;
+  **April 12**
+
+
+      - CSS to create a new book added;
+      - CSS to edit a book added;
+      - CSS correction on index page;
+      - Upload images do Readme;
+      - Update Readme.
