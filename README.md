@@ -69,4 +69,6 @@ The final result was that:
       - CSS to edit a book added;
       - CSS correction on index page;
       - Upload images do Readme;
-      - Update Readme.
+      - Update Readme;
+      - Add roboto font;
+      - Change some font-weight on Title and Author.
