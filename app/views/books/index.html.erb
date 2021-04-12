@@ -1,23 +1,26 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://static01.nyt.com/images/2013/10/03/obituaries/CLANCY-refer/CLANCY-refer-superJumbo.jpg);">
   <div class="container">
     <h1>My Bookshelf</h1>
-    <p>My collection of Tom Clancy's book and much more.</p>
+    <p>My collection of Tom Clancy's books and much more.</p>
   </div>
 </div>
 
-<div class="container mt-3">
+<div class="container mt-3 mb-3">
   <span class="btn-add">
     <%= link_to "Add new book", new_book_path %>
   </span>
 </div>
 
-<div class="container book-display">
+
+<div class="container book-display mb-4">
   <div class="book-box">
     <% @books.each do |book| %>
       <% if book.author != "" %>
         <div class="book-style">
         <img src="<%= book.cover %>" >
+        <span class="btn-title">
         <%= link_to book.title,   book_path(book.id) %>
+        </span>
       <% end %>
     </div>
     <% end %>
